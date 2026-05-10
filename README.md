@@ -24,3 +24,9 @@ The annotations follow the YOLO object detection format:
 
 ```text
 class_id x_center y_center width height
+
+## Download
+
+At the current stage, only a small subset of anonymized sample images and annotations is provided for preview.
+
+The full CASDI dataset will be publicly released after the corresponding paper is accepted.
