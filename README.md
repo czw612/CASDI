@@ -1,5 +1,3 @@
-# CASDI
-Coronary Artery Stenosis Degree Interval Dataset for X-ray Angiography
 # CASDI: Coronary Artery Stenosis Degree Interval Dataset
 
 CASDI is a coronary artery stenosis detection dataset for X-ray angiography (XRA) images. It is designed for stenosis localization and stenosis degree interval classification.
@@ -7,6 +5,8 @@ CASDI is a coronary artery stenosis detection dataset for X-ray angiography (XRA
 ## Dataset Description
 
 The CASDI dataset contains XRA images annotated with stenotic lesion bounding boxes and stenosis degree interval labels. Each annotation provides the location of a stenotic lesion and its corresponding severity interval.
+
+This repository currently provides only a small anonymized subset of CASDI for data-format preview. The complete CASDI dataset will be publicly released after the corresponding paper is accepted.
 
 ## Classes
 
@@ -24,9 +24,3 @@ The annotations follow the YOLO object detection format:
 
 ```text
 class_id x_center y_center width height
-
-## Download
-
-At the current stage, only a small subset of anonymized sample images and annotations is provided for preview.
-
-The full CASDI dataset will be publicly released after the corresponding paper is accepted.
